@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +16,6 @@ body {
 }
 
 .title {
-
     text-decoration: none;
     color: #FFFFFF;
     display: inline-block;
@@ -33,7 +30,6 @@ body {
     letter-spacing: 1px;
 }
 
-
 .posts ul {
     list-style: none;
     padding: 0;
@@ -41,7 +37,6 @@ body {
 
 .posts li {
     padding-bottom: 5px;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
     display: flex;
     align-items: baseline;
     gap: 15px;
@@ -52,15 +47,14 @@ body {
 }
 
 .posts span {
-    color: #214537; /*#2D7F5F; /* Darker green for dates */
+    color: #214537;
     font-size: 0.9rem;
     min-width: 120px;
     flex-shrink: 0;
 }
 
 .posts a {
-    color: #FFFFFF; /* Dark gray for links */
-    /* text-decoration: none; */
+    color: #FFFFFF;
     font-size: 1rem;
     font-weight: 500;
     padding: 5px 0;
@@ -68,11 +62,9 @@ body {
     transition: color 0.3s ease;
 }
 
-
-
 /* Color palette consistency */
 time {
-    color: inherit; /* Inherits from parent span color */
+    color: inherit;
 }
 
 /* Responsive adjustments */
@@ -95,14 +87,45 @@ time {
     }
 }
 
-
-.content 
-{
+.content {
     color: #FFFFFF;
 }
-.post-title
-{
 
+.post-title {
     font-size: 2rem;
     margin-bottom: 0.5em;
+}
+
+/* Content formatting - lists, paragraphs, etc. */
+.content p {
+    margin-bottom: 1em;
+}
+
+.content ul {
+    list-style-position: inside;
+    margin-left: 0;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+.content ul li {
+    margin-bottom: 0.5em;
+}
+
+.content h2 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.5rem;
+}
+
+.content h3 {
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+}
+
+.content br {
+    display: block;
+    content: "";
+    margin-top: 0.5em;
 }
